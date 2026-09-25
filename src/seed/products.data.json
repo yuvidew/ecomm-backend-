@@ -1,0 +1,412 @@
+[
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab605e4002a29614972/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab605e4002a37fe5840/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab605e4002a3b4d9e85/view?project=6ab374240038d71f92db"
+    ],
+    "id": 1,
+    "category_id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "slug": "wireless-bluetooth-headphones",
+    "description": "Over-ear wireless headphones with deep bass, noise isolation and long battery life.",
+    "price": "2499.00",
+    "stock": 45,
+    "created_at": "2026-09-25T04:30:00.000Z",
+    "updated_at": "2026-09-25T04:30:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab6065f0016c18c4ec4/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab6065f0016f32902c4/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab6065f0016f9a233a1/view?project=6ab374240038d71f92db"
+    ],
+    "id": 2,
+    "category_id": 1,
+    "name": "Smart LED Monitor 24 Inch",
+    "slug": "smart-led-monitor-24-inch",
+    "description": "Full HD 24-inch LED monitor with slim bezels and eye-care technology.",
+    "price": "8999.00",
+    "stock": 18,
+    "created_at": "2026-09-25T04:31:00.000Z",
+    "updated_at": "2026-09-25T04:31:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60701000c15474958/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60701000c2653cf54/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60701000c23a6c5ce/view?project=6ab374240038d71f92db"
+    ],
+    "id": 3,
+    "category_id": 1,
+    "name": "Mechanical Gaming Keyboard",
+    "slug": "mechanical-gaming-keyboard",
+    "description": "RGB mechanical keyboard with tactile switches and durable aluminum construction.",
+    "price": "3299.00",
+    "stock": 32,
+    "created_at": "2026-09-25T04:32:00.000Z",
+    "updated_at": "2026-09-25T04:32:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab6074c000504af6e88/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab6074c00052d9b23dd/view?project=6ab374240038d71f92db"
+    ],
+    "id": 4,
+    "category_id": 2,
+    "name": "Non Stick Cookware Set",
+    "slug": "non-stick-cookware-set",
+    "description": "Premium non-stick cookware set suitable for everyday cooking.",
+    "price": "2199.00",
+    "stock": 25,
+    "created_at": "2026-09-25T04:33:00.000Z",
+    "updated_at": "2026-09-25T04:33:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab607bf000cf368595c/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab607bf000d0dd6ee06/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab607bf000d0cfa2769/view?project=6ab374240038d71f92db"
+    ],
+    "id": 5,
+    "category_id": 2,
+    "name": "Electric Coffee Maker",
+    "slug": "electric-coffee-maker",
+    "description": "Compact electric coffee maker designed for quick and convenient brewing.",
+    "price": "1799.00",
+    "stock": 40,
+    "created_at": "2026-09-25T04:34:00.000Z",
+    "updated_at": "2026-09-25T04:34:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab608060024b1c499ab/view?project=6ab374240038d71f92db"
+    ],
+    "id": 6,
+    "category_id": 2,
+    "name": "Stainless Steel Water Bottle",
+    "slug": "stainless-steel-water-bottle",
+    "description": "Double-wall insulated stainless steel bottle that keeps beverages hot or cold.",
+    "price": "699.00",
+    "stock": 75,
+    "created_at": "2026-09-25T04:35:00.000Z",
+    "updated_at": "2026-09-25T04:35:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab608510025d9a3e230/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab608510025e3291f68/view?project=6ab374240038d71f92db"
+    ],
+    "id": 7,
+    "category_id": 3,
+    "name": "Vitamin C Face Serum",
+    "slug": "vitamin-c-face-serum",
+    "description": "Lightweight vitamin C serum designed for daily skincare routines.",
+    "price": "599.00",
+    "stock": 60,
+    "created_at": "2026-09-25T04:36:00.000Z",
+    "updated_at": "2026-09-25T04:36:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab608a10020cc21fcd4/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab608a10020e182c7fe/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab608a10020e30eb9e2/view?project=6ab374240038d71f92db"
+    ],
+    "id": 8,
+    "category_id": 3,
+    "name": "Moisturizing Face Cream",
+    "slug": "moisturizing-face-cream",
+    "description": "Daily moisturizing face cream suitable for normal and dry skin.",
+    "price": "449.00",
+    "stock": 85,
+    "created_at": "2026-09-25T04:37:00.000Z",
+    "updated_at": "2026-09-25T04:37:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab608ee00287b711143/view?project=6ab374240038d71f92db"
+    ],
+    "id": 9,
+    "category_id": 3,
+    "name": "Herbal Shampoo",
+    "slug": "herbal-shampoo",
+    "description": "Gentle herbal shampoo formulated for regular hair cleansing.",
+    "price": "349.00",
+    "stock": 70,
+    "created_at": "2026-09-25T04:38:00.000Z",
+    "updated_at": "2026-09-25T04:38:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60974002e400a7502/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60974002e575801b6/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60974002e54a9504f/view?project=6ab374240038d71f92db"
+    ],
+    "id": 10,
+    "category_id": 4,
+    "name": "Running Shoes",
+    "slug": "running-shoes",
+    "description": "Lightweight running shoes with cushioned soles for daily workouts.",
+    "price": "2499.00",
+    "stock": 35,
+    "created_at": "2026-09-25T04:39:00.000Z",
+    "updated_at": "2026-09-25T04:39:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab609c90011c1991077/view?project=6ab374240038d71f92db"
+    ],
+    "id": 11,
+    "category_id": 4,
+    "name": "Adjustable Dumbbell Set",
+    "slug": "adjustable-dumbbell-set",
+    "description": "Adjustable dumbbell set suitable for home strength training.",
+    "price": "3999.00",
+    "stock": 20,
+    "created_at": "2026-09-25T04:40:00.000Z",
+    "updated_at": "2026-09-25T04:40:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60a0b0013b8e63f8b/view?project=6ab374240038d71f92db"
+    ],
+    "id": 12,
+    "category_id": 4,
+    "name": "Yoga Mat Premium",
+    "slug": "yoga-mat-premium",
+    "description": "Non-slip yoga mat with comfortable cushioning for yoga and workouts.",
+    "price": "899.00",
+    "stock": 55,
+    "created_at": "2026-09-25T04:41:00.000Z",
+    "updated_at": "2026-09-25T04:41:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60a75001133ec36ea/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60a7500114e2b812a/view?project=6ab374240038d71f92db"
+    ],
+    "id": 15,
+    "category_id": 6,
+    "name": "Organic Brown Rice",
+    "slug": "organic-brown-rice",
+    "description": "Premium organic brown rice suitable for healthy everyday meals.",
+    "price": "249.00",
+    "stock": 120,
+    "created_at": "2026-09-25T04:44:00.000Z",
+    "updated_at": "2026-09-25T04:44:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60ac40035e0a28955/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60ac400360eec0211/view?project=6ab374240038d71f92db"
+    ],
+    "id": 16,
+    "category_id": 6,
+    "name": "Premium Green Tea",
+    "slug": "premium-green-tea",
+    "description": "Refreshing green tea made from carefully selected tea leaves.",
+    "price": "299.00",
+    "stock": 90,
+    "created_at": "2026-09-25T04:45:00.000Z",
+    "updated_at": "2026-09-25T04:45:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60b04001c31683bf1/view?project=6ab374240038d71f92db"
+    ],
+    "id": 17,
+    "category_id": 7,
+    "name": "Multivitamin Tablets",
+    "slug": "multivitamin-tablets",
+    "description": "Daily multivitamin supplement containing essential vitamins and minerals.",
+    "price": "499.00",
+    "stock": 65,
+    "created_at": "2026-09-25T04:46:00.000Z",
+    "updated_at": "2026-09-25T04:46:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60b52002a521d090f/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60b52002a6ec5b62f/view?project=6ab374240038d71f92db"
+    ],
+    "id": 18,
+    "category_id": 7,
+    "name": "Digital Body Weight Scale",
+    "slug": "digital-body-weight-scale",
+    "description": "Digital weighing scale with an easy-to-read display and accurate measurements.",
+    "price": "999.00",
+    "stock": 30,
+    "created_at": "2026-09-25T04:47:00.000Z",
+    "updated_at": "2026-09-25T04:47:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60b90000d3fb5f9d1/view?project=6ab374240038d71f92db"
+    ],
+    "id": 19,
+    "category_id": 8,
+    "name": "LED Car Headlight",
+    "slug": "led-car-headlight",
+    "description": "High-brightness LED headlight designed for improved visibility while driving.",
+    "price": "1899.00",
+    "stock": 22,
+    "created_at": "2026-09-25T04:48:00.000Z",
+    "updated_at": "2026-09-25T04:48:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60bbd0028d309eee8/view?project=6ab374240038d71f92db"
+    ],
+    "id": 20,
+    "category_id": 8,
+    "name": "Car Cleaning Kit",
+    "slug": "car-cleaning-kit",
+    "description": "Complete car cleaning kit with microfiber cloths, brushes and cleaning accessories.",
+    "price": "799.00",
+    "stock": 48,
+    "created_at": "2026-09-25T04:49:00.000Z",
+    "updated_at": "2026-09-25T04:49:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60ddc003431529306/view?project=6ab374240038d71f92db"
+    ],
+    "id": 21,
+    "category_id": 9,
+    "name": "Remote Control Racing Car",
+    "slug": "remote-control-racing-car",
+    "description": "Fast remote control racing car designed for indoor and outdoor play.",
+    "price": "1299.00",
+    "stock": 42,
+    "created_at": "2026-09-25T04:50:00.000Z",
+    "updated_at": "2026-09-25T04:50:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60bf4001bbb5ab484/view?project=6ab374240038d71f92db"
+    ],
+    "id": 22,
+    "category_id": 9,
+    "name": "Building Blocks Set",
+    "slug": "building-blocks-set",
+    "description": "Creative building blocks set that helps children develop imagination and problem-solving skills.",
+    "price": "599.00",
+    "stock": 58,
+    "created_at": "2026-09-25T04:51:00.000Z",
+    "updated_at": "2026-09-25T04:51:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60c3900199ce40895/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60c390019c2d6b72e/view?project=6ab374240038d71f92db"
+    ],
+    "id": 23,
+    "category_id": 1,
+    "name": "Smart Fitness Watch",
+    "slug": "smart-fitness-watch",
+    "description": "Smart fitness watch with activity tracking, notifications and heart rate monitoring.",
+    "price": "2999.00",
+    "stock": 27,
+    "created_at": "2026-09-25T04:52:00.000Z",
+    "updated_at": "2026-09-25T04:52:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60c70002ce9678e98/view?project=6ab374240038d71f92db"
+    ],
+    "id": 24,
+    "category_id": 2,
+    "name": "Air Fryer 4 Liter",
+    "slug": "air-fryer-4-liter",
+    "description": "4-liter air fryer with adjustable temperature control for convenient cooking.",
+    "price": "3499.00",
+    "stock": 16,
+    "created_at": "2026-09-25T04:53:00.000Z",
+    "updated_at": "2026-09-25T04:53:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  },
+  {
+    "images": [
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60caf002a91d0c2a7/view?project=6ab374240038d71f92db",
+        "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab60caf002aa2009f2f/view?project=6ab374240038d71f92db"
+    ],
+    "id": 25,
+    "category_id": 8,
+    "name": "Car Phone Holder",
+    "slug": "car-phone-holder",
+    "description": "Adjustable dashboard phone holder with secure grip for safe navigation while driving.",
+    "price": "499.00",
+    "stock": 80,
+    "created_at": "2026-09-25T04:54:00.000Z",
+    "updated_at": "2026-09-25T04:54:00.000Z",
+    "constructor": {
+      "name": "RowDataPacket"
+    }
+  }
+]

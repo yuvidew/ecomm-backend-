@@ -47,7 +47,7 @@ export const createProduct = async (input: CreateProductType) => {
     if (!category) {
         throw {
             status : 409,
-            messages: "Category does not exit",
+            message: "Category does not exist",
         }
     };
 
@@ -55,7 +55,7 @@ export const createProduct = async (input: CreateProductType) => {
     const slug = slugify(input.name);
     const existingProducts = await productRepository.findProductBySlug(slug);
 
-    if (!existingProducts) {
+    if (existingProducts) {
         throw {
             status : 409,
             message : "A product with this name already exist"

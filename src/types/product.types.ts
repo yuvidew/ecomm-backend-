@@ -29,9 +29,13 @@ export interface ProductImageRow extends RowDataPacket {
 
 // category schema
 export const createCategorySchema = z.object({
-    name : z.string().min(2, "Name must be at least 2 charachters")
+    name : z.string().min(2, "Name must be at least 2 charachters"),
+    image : z.string().url("Image nust be a valid url")
 });
 export type createCategoryType = z.infer<typeof createCategorySchema>
+
+export const updateCategorySchema = createCategorySchema.partial();
+export type UpdateCategoryType = z.infer<typeof updateCategorySchema>
 
 // product schemas
 export const createProductSchema = z.object({

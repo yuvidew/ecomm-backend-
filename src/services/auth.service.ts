@@ -35,7 +35,7 @@ export const signup = async (input: SignUpType) => {
 
 // verify the user and login
 export const signin = async (input: SignInType) =>{
-    const {email, password, role} = input;
+    const {email, password} = input;
 
     const user = await authRepository.findUserByEmail(email);
 
@@ -56,12 +56,13 @@ export const signin = async (input: SignInType) =>{
     };
 
     // generate token
-    const {accessToken, refreshToken} = await issueTokens(user.id, email, role);
+    const {accessToken, refreshToken} = await issueTokens(user.id, email, user.role);
 
     return {
         message : "Welcome to e-comm",
+        role : user.role,
         accessToken,
-        refreshToken
+        refreshToken,
     };
 };
 
