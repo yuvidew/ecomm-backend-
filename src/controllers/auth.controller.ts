@@ -16,12 +16,12 @@ export const signupController = async (req: Request, res: Response, next: NextFu
 // sign in controller
 export const signinController = async (req: Request, res: Response, next: NextFunction) => {
     try {
-        const {accessToken, refreshToken, message} = await authService.signin(req.body);
+        const {accessToken, refreshToken, message, role} = await authService.signin(req.body);
 
         // passing the refresh token through the cookie
         res.cookie(REFRESH_COOKIE, refreshToken, refreshCookieOption)
 
-        return res.status(201).json({message, accessToken});
+        return res.status(201).json({message, accessToken, role});
     } catch (error) {
         next(error);
     };

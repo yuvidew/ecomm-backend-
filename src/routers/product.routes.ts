@@ -18,6 +18,6 @@ router.get("/:id", getProductByIdcontroller);
 
 router.post("/", authenticate, authorize("admin"), validate(createProductSchema), createProductcontroller);
 router.put("/:id", authenticate, authorize("admin"), validate(updateProductSchema), updateProductController);
-router.post("/:id", authenticate, authorize("admin"), deleteProductByIdController);
+router.delete("/:id", authenticate, authorize("admin"), deleteProductByIdController);
 
 export default router;

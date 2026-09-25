@@ -19,7 +19,7 @@ export const generateAccessToken = (id: number, email : string, role: string) =>
 export const generateRefreshToken = (id: number, email : string, role: string) => {
     return jwt.sign(
         {id, email, role},
-        config.jwtRefreshExpiresIn,
+        config.jwtRefreshSecret,
         {
             expiresIn : config.jwtRefreshExpiresIn
         } as jwt.SignOptions

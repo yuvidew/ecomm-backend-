@@ -122,7 +122,7 @@ export const updateProduct = async (
 // delete product
 export const deleteProduct = async (id : number): Promise<void> => {
     await pool.query(
-        "DELETE FROM product WHERE id = ?",
+        "DELETE FROM products WHERE id = ?",
         [id]
     );
 };

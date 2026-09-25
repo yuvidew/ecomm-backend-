@@ -1,0 +1,11 @@
+[
+  { "name": "Electronics", "image": "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d26000023973b801/view?project=6ab374240038d71f92db" },
+  { "name": "Home & Kitchen", "image": "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d307000cea0badc0/view?project=6ab374240038d71f92db" },
+  { "name": "Beauty & Personal Care", "image":  "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d332000b77853d2d/view?project=6ab374240038d71f92db" },
+  { "name": "Sports & Outdoors", "image": "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d38200231b0ef2cb/view?project=6ab374240038d71f92db" },
+  { "name": "Books", "image": "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d3df002f48229ec9/view?project=6ab374240038d71f92db" },
+  { "name": "Toys & Games", "image": "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d4370015a0d5231f/view?project=6ab374240038d71f92db" },
+  { "name": "Groceries", "image": "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d462000211918936/view?project=6ab374240038d71f92db" },
+  { "name": "Health & Wellness", "image": "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d4a30019636b1b52/view?project=6ab374240038d71f92db" },
+  { "name": "Automotive", "image":  "https://fra.cloud.appwrite.io/v1/storage/buckets/6ab3749700041e900e41/files/6ab4d4d600252a6f8e0e/view?project=6ab374240038d71f92db" }
+]

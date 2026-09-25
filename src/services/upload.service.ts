@@ -4,19 +4,24 @@ import { InputFile } from "node-appwrite/file";
 import { storage } from "@/config/appwrite";
 import { config } from "@/config/env";
 
-export const uploadImages = async (files: Express.Multer.File[]) => {
-    const uploads = files.map( async (file) => {
-        const inputFile = InputFile.fromBuffer(file.buffer, file.originalname);
+export const uploadSingleFile  = async (file: Express.Multer.File) => {
 
-        const uploaded = await storage.createFile(
-            config.appwriteBucketId,
-            ID.unique(),
-            inputFile,
-            [Permission.read(Role.any())]
-        );
+    const inputFile = InputFile.fromBuffer(file.buffer, file.originalname);
 
-        return `${config.appwriteEndpoint}/storage/buckets/${config.appwriteBucketId}/files/${uploaded.$id}/view?project=${config.appwriteProjectId}`;
-    });
+    const uploaded = await storage.createFile(
+        config.appwriteBucketId,
+        ID.unique(),
+        inputFile,
+        [Permission.read(Role.any())]
+    );
 
-    return Promise.all(uploads)
+    return `${config.appwriteEndpoint}/storage/buckets/${config.appwriteBucketId}/files/${uploaded.$id}/view?project=${config.appwriteProjectId}`;
 }
+
+export const uploadImages = async (files: Express.Multer.File[]) => {
+    return Promise.all(files.map(uploadSingleFile));
+};
+
+export const uploadImage = async (file: Express.Multer.File) => {
+    return uploadSingleFile(file);
+};

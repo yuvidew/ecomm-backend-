@@ -25,7 +25,6 @@ export type SignUpType = z.infer<typeof signupSchema>;
 export const signinSchema = z.object({
     email: z.string().email("Invalid email address"),
     password : z.string().min(8, "Name must be 8 charachter"),
-    role : z.string().min(2, "Name must be two charachter"),
 });
 
 // sign in schema type
