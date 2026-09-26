@@ -8,6 +8,7 @@ import productRoutes from "@/routers/product.routes"
 import uploadRoutes from "@/routers/upload.routes";
 import cartRoutes from "@/routers/cart.routes";
 import favoriteRoutes from "@/routers/favorite.routes";
+import reviewRoutes from "@/routers/review.routes";
 
 import { errorHandler } from "./middlewares/error.middleware";
 
@@ -31,6 +32,7 @@ app.use("/api/products", productRoutes)
 app.use("/api/uploads", uploadRoutes)
 app.use("/api/cart", cartRoutes);
 app.use("/api/favorites", favoriteRoutes);
+app.use("/api/reviews", reviewRoutes);
 
 
 app.use(errorHandler) // must be last

@@ -15,7 +15,7 @@ export const findUserByEmail = async (email: string) : Promise<UserRow | null> =
 // query for to find user from by id
 export const findUserById = async (id : number) : Promise<UserRow | null> => {
     const [rows] = await pool.query<UserRow[]>(
-        "SELECT * FROM user WHERE id = ?",
+        "SELECT * FROM users WHERE id = ?",
         [id]
     );
 

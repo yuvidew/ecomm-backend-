@@ -14,11 +14,14 @@ export interface ProductRow extends RowDataPacket {
     name: string;
     slug: string;
     description: string | null;
-    price: string; // mysql2 returns DECIMAL as a string
+    price: string;
     stock: number;
+    avg_rating: string;   // add this
+    num_reviews: number;  // add this
     created_at: Date;
     updated_at: Date;
 };
+
 
 export interface ProductImageRow extends RowDataPacket {
     id: number;
