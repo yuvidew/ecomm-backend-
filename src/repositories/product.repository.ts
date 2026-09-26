@@ -145,3 +145,19 @@ export const deleteProductImages = async (productId : number) : Promise<void> =>
         [productId]
     );
 };
+
+// recompute and persist a product's average rating + review count
+export const recalculateProductRating = async (productId: number): Promise<void> => {
+    const [rows] = await pool.query<RowDataPacket[]>(
+         `SELECT COALESCE(ROUND(AVG(rating), 2), 0) AS avgRating, COUNT(*) AS numReviews
+        FROM reviews
+        WHERE product_id = ?`,
+        [productId]
+    );
+
+    const { avgRating, numReviews } = rows[0];
+    await pool.query(
+        "UPDATE products SET avg_rating = ?, num_reviews = ? WHERE id = ?",
+        [avgRating, numReviews, productId]
+    );
+}
