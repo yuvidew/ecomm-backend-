@@ -6,6 +6,9 @@ import authRoutes from "@/routers/auth.routes"
 import createRoutes from "@/routers/category.routes"
 import productRoutes from "@/routers/product.routes"
 import uploadRoutes from "@/routers/upload.routes";
+import cartRoutes from "@/routers/cart.routes";
+import favoriteRoutes from "@/routers/favorite.routes";
+
 import { errorHandler } from "./middlewares/error.middleware";
 
 
@@ -26,6 +29,9 @@ app.use("/api/auth", authRoutes)
 app.use("/api/categories", createRoutes)
 app.use("/api/products", productRoutes)
 app.use("/api/uploads", uploadRoutes)
+app.use("/api/cart", cartRoutes);
+app.use("/api/favorites", favoriteRoutes);
+
 
 app.use(errorHandler) // must be last
 
